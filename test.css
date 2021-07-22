@@ -4,10 +4,15 @@
   overflow: hidden;
 }
 
+body{
+ background-color: black;
+ color: white;
+ font-size: 1.5em;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #f2f2f2;
+  color: gold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -27,6 +32,28 @@
 }
 
 h1{
- color: blue;   
- align-items: center;
+ color: gold;   
+ text-align: center;
+}
+
+img#topImage{
+  height: 500px;
+  width: 100%;
+}
+
+p.bodyP{
+  display: inline-block;
+  width: 45%;
+  border-style: double;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+}
+
+p.bottom{
+  display: inline-block;
+  width: 95%;
+  border-style: double;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  text-align: center;
 }
